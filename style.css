@@ -1,0 +1,196 @@
+body{
+    background-image: url(Captura.PNG);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav{
+display: flex;
+justify-content: flex-end;
+}
+header .izquierda_arriba{
+width: 200px;
+height: auto;
+display: flex;
+justify-content:left;
+list-style: none;
+align-items: left;
+
+}
+header .izquierda_arriba a{
+    margin-left: 10px;
+    color: white;
+}
+
+header nav .derecha_arriba{
+width: 250px;
+height: auto;
+display: flex;
+justify-content: center;
+list-style: none;
+align-items: center;
+}
+
+.derecha_arriba a{
+    margin-right: 10px;
+    color: white;
+}
+
+nav .derecha_arriba .iconos_derecha{
+    background-image:url(tempsnip.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 20px;
+}
+
+nav .derecha_arriba img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+
+}
+main .Google{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .Google img{
+    width: 272px;
+}
+main .buscador{
+   width: 530px;
+   margin: 0 auto; 
+   margin-bottom: 35px;
+}
+
+main .Escritor{
+    width: 525px; ;
+    border-radius:100px ;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+}
+
+main .Escritor input{
+    width:450px ;
+    height:40px ;
+    border: none;
+    outline: none;
+    background-image: url(Captura.PNG);
+
+}
+
+main .Escritor:hover{
+    box-shadow: 0 1px 6px 0 grey;
+}
+
+main .Escritor .icono_buscar{
+    background-image: url(Vector_search_icon.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+}
+
+main .Escritor .microfono{
+    background-image: url(3128290.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+main .Escritor .camara{
+    background-image: url(Google_Lens_-_new_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+main .botones{
+    width: 530px;
+    margin: 0 auto;
+}
+ main .botones div{
+    display: inline-block;
+    
+    
+ }
+
+ main .botones button{
+    height: 36px;
+    background-color: #303134;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    
+    
+ }
+ button{
+    color: white;
+ }
+
+ main .botones button:hover{
+    border: 1px solid #dadce0 ;
+    box-shadow: 1px #dadce0;
+    color:white ;
+    
+ }
+
+ footer{
+    width:100% ;
+    height:50px ;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-image: url(w.PNG);
+    border-top: 1px solid gray;
+ }
+ footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+ }
+ ul{
+    color: white;
+
+ }
+
+ footer .abajo_izquierda{
+    justify-content: left;
+ }
+
+ footer .abajo_derecha{
+    justify-content: right;
+ }
+
+ footer ul li a{
+    margin: 10px;
+    color:white ;
+ }
